@@ -6,6 +6,9 @@ what reliably works, and what tends to go wrong.
 
 Settings that build on these results: [Print Settings](print-settings.md).
 
+Changed the hotend or nozzle? See [Ceramic Hotends and Silicon Carbide Nozzles](hotend-and-nozzles.md).
+Other modifications: see [what to recalibrate after each mod](modifications.md#what-to-recalibrate-after-each-mod).
+
 ![Calibration order: printer first, then per filament](images/calibration-order.svg)
 
 ## Contents
