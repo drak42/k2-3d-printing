@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Max speed allowed by the filament's flow limit (0.42 mm line)</text>
+  <text x="380" y="54" text-anchor="middle" font-size="14" fill="#444">max speed = MVS ÷ (layer height × line width)</text>
+  <g font-size="13">
+    <!-- axis -->
+    <line x1="170" y1="70" x2="170" y2="290" stroke="#999"/>
+    <line x1="170" y1="290" x2="730" y2="290" stroke="#999"/>
+    <g fill="#666" text-anchor="middle">
+      <text x="170" y="306">0</text><text x="282" y="306">100</text><text x="394" y="306">200</text><text x="506" y="306">300</text><text x="618" y="306">400</text><text x="730" y="306">500 mm/s</text>
+    </g>
+    <!-- scale 1.12 px per mm/s -->
+    <text x="160" y="96" text-anchor="end">PETG 9 · 0.20 mm</text><rect x="170" y="84" width="120" height="18" fill="#3a7bd5"/><text x="296" y="98">107</text>
+    <text x="160" y="122" text-anchor="end">PETG 9 · 0.12 mm</text><rect x="170" y="110" width="199" height="18" fill="#3a7bd5" opacity="0.6"/><text x="375" y="124">178</text>
+    <text x="160" y="160" text-anchor="end">PLA 14 · 0.20 mm</text><rect x="170" y="148" width="187" height="18" fill="#e07b39"/><text x="363" y="162">167</text>
+    <text x="160" y="186" text-anchor="end">PLA 14 · 0.12 mm</text><rect x="170" y="174" width="311" height="18" fill="#e07b39" opacity="0.6"/><text x="487" y="188">278</text>
+    <text x="160" y="224" text-anchor="end">Hyper PLA 23 · 0.20 mm</text><rect x="170" y="212" width="307" height="18" fill="#c0392b"/><text x="483" y="226">274</text>
+    <text x="160" y="250" text-anchor="end">Hyper PLA 23 · 0.12 mm</text><rect x="170" y="238" width="511" height="18" fill="#c0392b" opacity="0.6"/><text x="687" y="252">456</text>
+    <!-- quality band -->
+    <rect x="237" y="70" width="67" height="220" fill="#2c7" opacity="0.15"/>
+    <text x="270" y="80" text-anchor="middle" fill="#1a7a4a" font-weight="bold">outer wall</text>
+  </g>
+  <text x="380" y="328" text-anchor="middle" font-size="14" fill="#444">Green band: 60–120 mm/s quality outer wall, well below every flow limit.</text><text x="380" y="348" text-anchor="middle" font-size="14" fill="#444">For quality, the outer wall speed sets the finish, not MVS.</text>
+</svg>

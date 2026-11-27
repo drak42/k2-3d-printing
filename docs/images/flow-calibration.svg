@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" font-family="Helvetica, Arial, sans-serif">
+  <rect width="760" height="260" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Reading the flow test: pick the smoothest top</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="40" y="60" width="180" height="120" fill="#e07b39"/>
+    <g stroke="#ffffff" stroke-width="3"><line x1="40" y1="76" x2="220" y2="76"/><line x1="40" y1="94" x2="220" y2="94"/><line x1="40" y1="112" x2="220" y2="112"/><line x1="40" y1="130" x2="220" y2="130"/><line x1="40" y1="148" x2="220" y2="148"/><line x1="40" y1="166" x2="220" y2="166"/></g>
+    <text x="130" y="205" font-weight="bold" fill="#c0392b">Under-extruded</text><text x="130" y="223">gaps between lines</text>
+    <rect x="290" y="60" width="180" height="120" fill="#e07b39"/>
+    <g stroke="#d06a2a" stroke-width="1"><line x1="290" y1="76" x2="470" y2="76"/><line x1="290" y1="94" x2="470" y2="94"/><line x1="290" y1="112" x2="470" y2="112"/><line x1="290" y1="130" x2="470" y2="130"/><line x1="290" y1="148" x2="470" y2="148"/><line x1="290" y1="166" x2="470" y2="166"/></g>
+    <text x="380" y="205" font-weight="bold" fill="#1a7a4a">Right</text><text x="380" y="223">lines touch, flat, smooth to a fingernail</text>
+    <rect x="540" y="60" width="180" height="120" fill="#e07b39"/>
+    <g stroke="#9b4515" stroke-width="5"><line x1="540" y1="76" x2="720" y2="76"/><line x1="540" y1="94" x2="720" y2="94"/><line x1="540" y1="112" x2="720" y2="112"/><line x1="540" y1="130" x2="720" y2="130"/><line x1="540" y1="148" x2="720" y2="148"/><line x1="540" y1="166" x2="720" y2="166"/></g>
+    <text x="630" y="205" font-weight="bold" fill="#c0392b">Over-extruded</text><text x="630" y="223">raised ridges, rough, blobs at edges</text>
+  </g>
+  <text x="380" y="250" text-anchor="middle" font-size="14" fill="#444">Don't pick the shiniest block. Look under a low light from the side.</text>
+</svg>

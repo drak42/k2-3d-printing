@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" font-family="Helvetica, Arial, sans-serif">
+  <rect width="760" height="250" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Ironing a top surface (cross-section)</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="40" y="120" width="300" height="50" fill="#e07b39"/>
+    <path d="M40,120 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 q12.5,-12 25,0 z" fill="#e07b39"/>
+    <text x="190" y="196" font-weight="bold">Without ironing</text><text x="190" y="214">rounded top lines leave grooves</text>
+    <rect x="420" y="120" width="300" height="50" fill="#e07b39"/>
+    <rect x="420" y="111" width="300" height="9" fill="#f2a46d"/>
+    <polygon points="560,60 600,60 590,96 570,96" fill="#888"/><rect x="575" y="96" width="10" height="12" fill="#666"/>
+    <path d="M610,78 L700,78" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <text x="570" y="196" font-weight="bold">With ironing</text><text x="570" y="214">hot nozzle passes again at 10–15 % flow,</text><text x="570" y="232">filling the grooves</text>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+</svg>

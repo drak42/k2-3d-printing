@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" font-family="Helvetica, Arial, sans-serif">
+  <rect width="760" height="260" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">First layer and Z offset (cross-section of lines)</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="30" y="130" width="220" height="14" fill="#555"/>
+    <g fill="#e07b39"><circle cx="60" cy="116" r="14"/><circle cx="100" cy="116" r="14"/><circle cx="140" cy="116" r="14"/><circle cx="180" cy="116" r="14"/><circle cx="220" cy="116" r="14"/></g>
+    <text x="140" y="175" font-weight="bold" fill="#c0392b">Too high</text><text x="140" y="193">round lines, gaps,</text><text x="140" y="211">poor adhesion</text>
+    <rect x="270" y="130" width="220" height="14" fill="#555"/>
+    <g fill="#e07b39"><rect x="276" y="112" width="40" height="18" rx="8"/><rect x="314" y="112" width="40" height="18" rx="8"/><rect x="352" y="112" width="40" height="18" rx="8"/><rect x="390" y="112" width="40" height="18" rx="8"/><rect x="428" y="112" width="40" height="18" rx="8"/></g>
+    <text x="380" y="175" font-weight="bold" fill="#1a7a4a">Just right</text><text x="380" y="193">flat lines that just merge,</text><text x="380" y="211">smooth surface</text>
+    <rect x="510" y="130" width="220" height="14" fill="#555"/>
+    <g fill="#e07b39"><path d="M516,130 L516,120 q6,-14 14,0 L560,120 q6,-14 14,0 L604,120 q6,-14 14,0 L648,120 q6,-14 14,0 L692,120 q6,-14 14,0 L724,120 L724,130 z"/></g>
+    <text x="620" y="175" font-weight="bold" fill="#c0392b">Too low</text><text x="620" y="193">ridges, rough or transparent,</text><text x="620" y="211">nozzle scrapes</text>
+  </g>
+  <text x="380" y="245" text-anchor="middle" font-size="14" fill="#444">Adjust in 0.01–0.02 mm steps during a large single-layer test print, with bed and nozzle at print temperature.</text>
+</svg>

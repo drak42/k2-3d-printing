@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Helvetica, Arial, sans-serif">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Calibration order</text>
+  <text x="20" y="62" font-size="14" font-weight="bold" fill="#666">PRINTER — once, and after moving or repairs</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="20" y="72" width="160" height="46" rx="8" fill="#9a9a9a"/><text x="100" y="100" fill="#fff">Firmware update</text>
+    <rect x="210" y="72" width="160" height="46" rx="8" fill="#9a9a9a"/><text x="290" y="92" fill="#fff">Belts +</text><text x="290" y="110" fill="#fff">input shaping</text>
+    <rect x="400" y="72" width="160" height="46" rx="8" fill="#9a9a9a"/><text x="480" y="92" fill="#fff">Z offset</text><text x="480" y="110" fill="#fff">(hot)</text>
+    <rect x="590" y="72" width="150" height="46" rx="8" fill="#9a9a9a"/><text x="665" y="92" fill="#fff">Bed mesh</text><text x="665" y="110" fill="#fff">(hot)</text>
+  </g>
+  <text x="110" y="164" font-size="14" font-weight="bold" fill="#666">EACH FILAMENT — dry it first</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="20" y="172" width="120" height="46" rx="8" fill="#e07b39"/><text x="80" y="200" fill="#fff">Temperature</text>
+    <rect x="165" y="172" width="100" height="46" rx="8" fill="#e07b39"/><text x="215" y="200" fill="#fff">Flow</text>
+    <rect x="290" y="172" width="120" height="46" rx="8" fill="#e07b39"/><text x="350" y="192" fill="#fff">Pressure</text><text x="350" y="210" fill="#fff">advance</text>
+    <rect x="435" y="172" width="100" height="46" rx="8" fill="#e07b39"/><text x="485" y="192" fill="#fff">Max</text><text x="485" y="210" fill="#fff">flow</text>
+    <rect x="560" y="172" width="80" height="46" rx="8" fill="#e07b39"/><text x="600" y="192" fill="#fff">Retrac-</text><text x="600" y="210" fill="#fff">tion</text>
+    <rect x="665" y="172" width="75" height="46" rx="8" fill="#e07b39"/><text x="702" y="192" fill="#fff">Cooling,</text><text x="702" y="210" fill="#fff">sizes</text>
+  </g>
+  <g stroke="#555" stroke-width="2" fill="none" marker-end="url(#a)">
+    <line x1="180" y1="95" x2="206" y2="95"/><line x1="370" y1="95" x2="396" y2="95"/><line x1="560" y1="95" x2="586" y2="95"/>
+    <path d="M665,118 L665,140 L80,140 L80,168"/>
+    <line x1="140" y1="195" x2="161" y2="195"/><line x1="265" y1="195" x2="286" y2="195"/><line x1="410" y1="195" x2="431" y2="195"/><line x1="535" y1="195" x2="556" y2="195"/><line x1="640" y1="195" x2="661" y2="195"/>
+  </g>
+  <text x="380" y="255" text-anchor="middle" font-size="14" fill="#444">Built-in auto routines are reliable for belts, input shaping and bed mesh.</text>
+  <text x="380" y="277" text-anchor="middle" font-size="14" fill="#444">For flow and pressure advance, manual tests in OrcaSlicer / Creality Print are more dependable.</text>
+</svg>
