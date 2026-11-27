@@ -23,6 +23,8 @@ After any modification, recalibrate what it affects — see
 
 ## 1. Known issues these mods address
 
+![Bed mesh range: under 0.3 mm is good, over 0.5 mm suggests a warped bed](images/bed-mesh-range.svg)
+
 Community-reported K2 Plus weak points (mostly from a commercial mod guide; treat figures as
 indicative):
 

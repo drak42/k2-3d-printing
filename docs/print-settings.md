@@ -157,6 +157,8 @@ First, look at what kind of lines you have:
 
 ## 7. Temperatures by filament
 
+![Nozzle temperature ranges by filament](images/temperature-ranges.svg)
+
 Creality's published K2 Plus parameters (store guide dated December 2025). "Chamber" is the
 cavity temperature. Max volumetric speed (MVS) is the flow limit in mm³/s.
 
@@ -227,6 +229,8 @@ settings as the quality limit:
 
 ## 9. Cooling
 
+![Droopy overhang versus clean overhang](images/overhang-cooling.svg)
+
 - **PLA:** 100 % part fan after the first few layers; minimum layer time 4–6 s so small layers
   cool.
 - **PETG:** 40–80 %; too much fan weakens layer bonding, too little gives droopy overhangs and
@@ -235,6 +239,8 @@ settings as the quality limit:
 - **Auxiliary/side fan:** helpful for PLA overhangs, turn off for ABS/ASA to avoid warping.
 
 ## 10. Retraction and stringing
+
+![Retraction test: choose the shortest length with no strings](images/retraction-test.svg)
 
 Creality doesn't publish K2 retraction values. Starting points for the direct-drive extruder:
 

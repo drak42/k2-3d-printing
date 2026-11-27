@@ -110,6 +110,8 @@ Most first-layer problems on the K2 Plus with stock settings come down to the **
 
 ## 5. Bed mesh
 
+![Bed mesh range: under 0.3 mm is good, over 0.5 mm suggests a warped bed](images/bed-mesh-range.svg)
+
 **What works**
 - Auto bed levelling at print temperature with the plate you'll print on.
 - Check the mesh range in the printer UI or Fluidd/Mainsail: under ~0.3 mm is good; above ~0.5 mm
@@ -122,6 +124,8 @@ Most first-layer problems on the K2 Plus with stock settings come down to the **
   mounting screws first.
 
 ## 6. Temperature
+
+![Reading a temperature tower: too hot at the top, too cold at the bottom, best floor in between](images/temperature-tower.svg)
 
 **Tool:** Orca → Calibration → Temperature (tower). Creality Print has the same in its
 Calibration menu.
@@ -203,6 +207,8 @@ lines. Creality's defaults: PLA ~0.04, PETG 0.05–0.10, ABS/ASA 0.03–0.06, TP
 
 ## 9. Max volumetric speed
 
+![Max volumetric speed test: set the limit 10–20 % below where walls turn rough](images/max-flow-test.svg)
+
 **Tool:** Orca → Calibration → Max flowrate. Prints a tapered tower at increasing flow.
 
 **What works**
@@ -220,6 +226,8 @@ lines. Creality's defaults: PLA ~0.04, PETG 0.05–0.10, ABS/ASA 0.03–0.06, TP
 
 ## 10. Retraction
 
+![Retraction test: choose the shortest length with no strings](images/retraction-test.svg)
+
 **Tool:** Orca → Calibration → Retraction test (tower with increasing retraction length).
 
 **What works**
@@ -234,6 +242,8 @@ lines. Creality's defaults: PLA ~0.04, PETG 0.05–0.10, ABS/ASA 0.03–0.06, TP
 
 ## 11. Cooling and overhangs
 
+![Droopy overhang versus clean overhang](images/overhang-cooling.svg)
+
 **Tools:** Orca overhang and bridge test models (or community models).
 
 **What works**
@@ -246,6 +256,8 @@ lines. Creality's defaults: PLA ~0.04, PETG 0.05–0.10, ABS/ASA 0.03–0.06, TP
 - Expecting more cooling to fix bridges sagged by too-high flow — check flow first.
 
 ## 12. Dimensional accuracy, shrinkage and tolerances
+
+![Elephant's foot and undersized holes, and how to compensate](images/dimensional-accuracy.svg)
 
 **What works**
 - Print a **calibration cube** (20 mm) or better a larger 100 mm part; measure with calipers in X,

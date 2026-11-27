@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs><rect width="760" height="285" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Bed mesh range (side view, exaggerated)</text>
+<line x1="40" y1="90" x2="340" y2="90" stroke="#ccc" stroke-dasharray="4 4"/>
+<polyline points="50,98.0 76,95.1 102,92.9 128,91.3 154,90.3 180,90.0 206,90.3 232,91.3 258,92.9 284,95.1 310,98.0" fill="none" stroke="#1a7a4a" stroke-width="4"/>
+<text x="190" y="165" text-anchor="middle" font-size="15" fill="#1a7a4a" font-weight="bold">Mesh range under ~0.3 mm</text>
+<text x="190" y="185" text-anchor="middle" font-size="14" fill="#222">good: mesh compensation copes</text>
+<line x1="420" y1="90" x2="720" y2="90" stroke="#ccc" stroke-dasharray="4 4"/>
+<polyline points="430,145.0 456,125.2 482,109.8 508,98.8 534,92.2 560,90.0 586,92.2 612,98.8 638,109.8 664,125.2 690,145.0" fill="none" stroke="#c0392b" stroke-width="4"/>
+<text x="570" y="165" text-anchor="middle" font-size="15" fill="#c0392b" font-weight="bold">Over ~0.5 mm ("taco" bed)</text>
+<text x="570" y="185" text-anchor="middle" font-size="14" fill="#222">warped plate or bed mount: first layer</text>
+<text x="570" y="203" text-anchor="middle" font-size="14" fill="#222">varies across the bed</text>
+<text x="380" y="245" text-anchor="middle" font-size="14" fill="#444">Check the range in the printer UI or Fluidd/Mainsail after levelling at print temperature.</text>
+<text x="380" y="265" text-anchor="middle" font-size="14" fill="#444">Fixes for a large range: flatter plate, kinematic bed mount (see Modifications).</text>
+</svg>

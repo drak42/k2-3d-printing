@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="365" viewBox="0 0 760 365" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs><rect width="760" height="365" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Reading a temperature tower</text>
+<rect x="300" y="50" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,50 520,50 460,86" fill="#e07b39"/>
+<text x="290" y="74" text-anchor="end" font-size="13" fill="#222">230 °C</text>
+<rect x="300" y="88" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,88 520,88 460,124" fill="#e07b39"/>
+<text x="290" y="112" text-anchor="end" font-size="13" fill="#222">225 °C</text>
+<rect x="300" y="126" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,126 520,126 460,162" fill="#e07b39"/>
+<text x="290" y="150" text-anchor="end" font-size="13" fill="#222">220 °C</text>
+<rect x="300" y="164" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,164 520,164 460,200" fill="#e07b39"/>
+<text x="290" y="188" text-anchor="end" font-size="13" fill="#222">215 °C</text>
+<rect x="300" y="202" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,202 520,202 460,238" fill="#e07b39"/>
+<text x="290" y="226" text-anchor="end" font-size="13" fill="#222">210 °C</text>
+<rect x="300" y="240" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,240 520,240 460,276" fill="#e07b39"/>
+<text x="290" y="264" text-anchor="end" font-size="13" fill="#222">205 °C</text>
+<rect x="300" y="278" width="160" height="36" fill="#e07b39"/>
+<polygon points="460,278 520,278 460,314" fill="#e07b39"/>
+<text x="290" y="302" text-anchor="end" font-size="13" fill="#222">200 °C</text>
+<path d="M320,68 q40,10 80,-2 M330,76 q50,6 90,0" stroke="#b85a22" fill="none"/>
+<path d="M320,106 q40,10 80,-2 M330,114 q50,6 90,0" stroke="#b85a22" fill="none"/>
+<path d="M460,86 q40,14 60,22" stroke="#b85a22" stroke-width="3" fill="none"/>
+<line x1="300" y1="276" x2="460" y2="276" stroke="#fff" stroke-width="3" stroke-dasharray="10 6"/>
+<line x1="300" y1="314" x2="460" y2="314" stroke="#fff" stroke-width="3" stroke-dasharray="10 6"/>
+<rect x="296" y="161" width="230" height="41" fill="none" stroke="#1a7a4a" stroke-width="3"/>
+<text x="120" y="90" text-anchor="middle" font-size="15" fill="#c0392b" font-weight="bold">Too hot</text>
+<text x="120" y="110" text-anchor="middle" font-size="14" fill="#222">stringing, droopy</text>
+<text x="120" y="128" text-anchor="middle" font-size="14" fill="#222">overhangs, blobby surface</text>
+<text x="640" y="185" text-anchor="middle" font-size="15" fill="#1a7a4a" font-weight="bold">Best floor</text>
+<text x="640" y="205" text-anchor="middle" font-size="14" fill="#222">coolest temperature with</text>
+<text x="640" y="223" text-anchor="middle" font-size="14" fill="#222">clean overhangs and good bonding</text>
+<text x="120" y="280" text-anchor="middle" font-size="15" fill="#c0392b" font-weight="bold">Too cold</text>
+<text x="120" y="300" text-anchor="middle" font-size="14" fill="#222">gaps, rough walls, weak</text>
+<text x="120" y="318" text-anchor="middle" font-size="14" fill="#222">layers: snap it to check</text>
+<text x="380" y="350" text-anchor="middle" font-size="14" fill="#444">Print across the filament's range in 5 °C steps.</text>
+</svg>
