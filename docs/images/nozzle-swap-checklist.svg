@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="230" viewBox="0 0 760 230" font-family="Helvetica, Arial, sans-serif">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+  <rect width="760" height="230" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">After fitting a new hotend or nozzle</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="20" y="56" width="130" height="50" rx="8" fill="#9a9a9a"/><text x="85" y="78" fill="#fff">PID tune</text><text x="85" y="96" fill="#fff" font-size="12">(new hotend only)</text>
+    <rect x="170" y="56" width="130" height="50" rx="8" fill="#9a9a9a"/><text x="235" y="78" fill="#fff">Z offset +</text><text x="235" y="96" fill="#fff">bed mesh</text>
+    <rect x="320" y="56" width="130" height="50" rx="8" fill="#9a9a9a"/><text x="385" y="78" fill="#fff">Printer preset</text><text x="385" y="96" fill="#fff">for nozzle size</text>
+    <rect x="470" y="56" width="130" height="50" rx="8" fill="#9a9a9a"/><text x="535" y="78" fill="#fff">Nozzle type:</text><text x="535" y="96" fill="#fff">hardened steel</text>
+    <rect x="20" y="140" width="130" height="50" rx="8" fill="#e07b39"/><text x="85" y="170" fill="#fff">Temperature</text>
+    <rect x="170" y="140" width="130" height="50" rx="8" fill="#e07b39"/><text x="235" y="170" fill="#fff">Flow</text>
+    <rect x="320" y="140" width="130" height="50" rx="8" fill="#e07b39"/><text x="385" y="160" fill="#fff">Pressure</text><text x="385" y="178" fill="#fff">advance</text>
+    <rect x="470" y="140" width="130" height="50" rx="8" fill="#e07b39"/><text x="535" y="160" fill="#fff">Max</text><text x="535" y="178" fill="#fff">volumetric speed</text>
+    <rect x="620" y="140" width="120" height="50" rx="8" fill="#5b7a3a"/><text x="680" y="160" fill="#fff">Save presets</text><text x="680" y="178" fill="#fff">per nozzle</text>
+  </g>
+  <g stroke="#555" stroke-width="2" fill="none" marker-end="url(#a)">
+    <line x1="150" y1="81" x2="166" y2="81"/><line x1="300" y1="81" x2="316" y2="81"/><line x1="450" y1="81" x2="466" y2="81"/>
+    <path d="M535,106 L535,123 L85,123 L85,136"/>
+    <line x1="150" y1="165" x2="166" y2="165"/><line x1="300" y1="165" x2="316" y2="165"/><line x1="450" y1="165" x2="466" y2="165"/><line x1="600" y1="165" x2="616" y2="165"/>
+  </g>
+  <text x="680" y="90" text-anchor="middle" font-size="13" fill="#444">orange = repeat</text>
+  <text x="680" y="108" text-anchor="middle" font-size="13" fill="#444">for each filament</text>
+</svg>

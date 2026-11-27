@@ -10,6 +10,8 @@ the same name in both. Where they differ, both are given.
 Calibrate first: settings only work as well as the printer and filament are tuned. See
 [Calibration](calibration.md).
 
+Changed the hotend or nozzle? See [Ceramic Hotends and Silicon Carbide Nozzles](hotend-and-nozzles.md).
+
 ## Contents
 
 1. [The printer and its limits](#1-the-printer-and-its-limits)

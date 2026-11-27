@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Helvetica, Arial, sans-serif">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Nozzle materials: hardness vs heat conduction</text>
+  <g font-size="14">
+    <text x="190" y="62" text-anchor="middle" font-weight="bold">Hardness (Mohs, approx.)</text>
+    <text x="570" y="62" text-anchor="middle" font-weight="bold">Heat conduction (W/m·K, approx.)</text>
+    <!-- hardness: scale 25px per Mohs from x=130 -->
+    <text x="122" y="94" text-anchor="end">Brass</text><rect x="130" y="80" width="75" height="20" fill="#d4a017"/><text x="211" y="95">3</text>
+    <text x="122" y="134" text-anchor="end">Hardened steel</text><rect x="130" y="120" width="188" height="20" fill="#7f8c8d"/><text x="324" y="135">7–8</text>
+    <text x="122" y="174" text-anchor="end">Silicon carbide</text><rect x="130" y="160" width="245" height="20" fill="#2c3e50"/><text x="331" y="175" fill="#fff">9.8</text>
+    <!-- conduction: scale 1.4px per W/mK from x=500 -->
+    <text x="492" y="94" text-anchor="end">Brass</text><rect x="500" y="80" width="154" height="20" fill="#d4a017"/><text x="660" y="95">~110</text>
+    <text x="492" y="134" text-anchor="end">Hardened steel</text><rect x="500" y="120" width="49" height="20" fill="#7f8c8d"/><text x="555" y="135">~25–45</text>
+    <text x="492" y="174" text-anchor="end">Silicon carbide</text><rect x="500" y="160" width="175" height="20" fill="#2c3e50"/><rect x="675" y="160" width="35" height="20" fill="#2c3e50" opacity="0.4"/><text x="605" y="196" text-anchor="middle" font-size="12" fill="#555">100–150 depending on grade</text>
+  </g>
+  <line x1="380" y1="50" x2="380" y2="210" stroke="#ddd"/>
+  <g font-size="14" fill="#444" text-anchor="middle">
+    <text x="380" y="240">Silicon carbide combines the wear resistance of a ceramic with brass-like heat flow,</text>
+    <text x="380" y="260">so it suits abrasive filaments and may print a few degrees cooler than hardened steel.</text>
+    <text x="380" y="290" fill="#c0392b">Trade-off: it is brittle. Avoid nozzle crashes, steel scrapers and over-tightening.</text>
+    <text x="380" y="316" font-size="12" fill="#777">General material data, not measurements of specific nozzles.</text>
+  </g>
+</svg>
